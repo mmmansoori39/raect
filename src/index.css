@@ -1,0 +1,215 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+margin: 20px 0px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-state, .card{
+    background: rgba(0, 128, 128, 0.74);
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
+    align-items: center;
+    border-radius: 12px;
+    margin-top: 20px;
+    /* box-sizing: border-box; */
+}
+.card-state button{
+width: 100px;
+height: 35px;
+background-color: black;
+color: white;
+font-size: 16px;
+font-weight: 600;
+border-radius: 12px;
+margin-top: 10px;
+cursor: pointer;
+}
+.card-state h1{
+font-size: 50px;
+color: rgb(216, 30, 13);
+}
+.calc{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid rgb(135, 8, 142);
+}
+.calc ul li{
+    list-style: none;
+    font-weight: 540;
+    color: blue;
+}
+.plusminus{
+    width: 240px;
+    margin-top: 20px;
+    padding: 18px 0px;
+    background-color: white;
+    box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.386);
+    border-radius: 12px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.plusminus h1{
+    background-color: orangered;
+    margin: 20px 0px;
+    padding: 8px 0px;
+}
+.plusminus span{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.plusminus span button{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 69, 2); */
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.283);
+    cursor: pointer;
+}
+.plusminus span button:hover{
+    /* background-color: rgb(183, ; */
+    color: #2ed573;
+}
+.plusminus p{
+    font-size: 12px;
+    margin-top: 14px;
+    color: rgb(68, 255, 0);
+}
+.forms{
+    margin: 20px 0px;
+    padding: 12px 10px;
+    border: 1px solid orangered;
+    display: inline-block;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 320px;
+}
+.forms :where(input, Button){
+    width: 90%;
+    margin-top: 10px;
+    height: 30px;
+    padding: 2px 10px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+}
+.forms Button{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 550;
+    background-color: rgb(185, 13, 136);
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.283);
+    color: black;
+    cursor: pointer;
+}
+.forms Button:hover{
+    background-color: white;
+    color: rgb(68, 255, 0);
+}
+.forms input{
+    border: 1px solid lightgray;
+}
+.forms input:focus{
+    outline-color: orangered;
+}
+
+.maindiv{
+    width: 320px;
+    min-height: 520px;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 35px 0px 15px 0px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.226);
+}
+.maindiv  h2{
+    background-color: olivedrab;
+    padding: 8px 0px;
+    color: black;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.maindiv .todo_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid olivedrab;
+    padding-bottom: 18px;
+    margin-bottom: 12px;
+    border-radius: 0px 0px 30px 30px;
+    /* box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.306); */
+}
+.maindiv .todo_main input{
+    height: 30px;
+    border: 1px solid lightgray;
+    padding: 0px 10px;
+    border-radius: 15px;
+}
+.maindiv .todo_main input:focus{
+    outline: none;
+    border: 1px solid olivedrab;
+}
+.maindiv .todo_main Button{
+    margin-left: 18px;
+    font-size: 38px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: none;
+    color: olivedrab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.253);
+    /* border: 1px solid olivedrab; */
+}
+.todo_main button:hover{
+    color: white;
+    background-color: olivedrab;
+}
+.items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding: 7px 20px 6px 40px;
+    color: olivedrab;
+}
+.items li{
+    list-style: none;
+}
+.items li:hover{
+    color: black;
+}
+.items .delete:hover{
+    color: crimson;
+}
+.items .delete{
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/basicreact/static/css/main.e0b231db.css",
+    "main.js": "/basicreact/static/js/main.09ae91b0.js",
+    "index.html": "/basicreact/index.html",
+    "main.e0b231db.css.map": "/basicreact/static/css/main.e0b231db.css.map",
+    "main.09ae91b0.js.map": "/basicreact/static/js/main.09ae91b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0b231db.css",
+    "static/js/main.09ae91b0.js"
+  ]
+}
